@@ -1,0 +1,95 @@
+.wrapper {
+    width: 300px;
+    height: 200px;
+    margin: -55px 500px;
+    font-family: "Neue-Helvetica","Helvetica","Arial","sans-serif";
+    font-size: small;
+    
+}
+.left {
+    margin: -130px -10px;
+}
+.lebel {
+    margin: 0px 145px;
+    display: inline;
+}
+input{
+    width: 300px;
+    padding: 10px;
+        outline: 0;
+        border-width: 0 0 thin;
+        border-color: grey;
+}
+
+
+button{
+    background-color: black;
+    width: 325px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-width: thin;
+    transition: 0.5s;
+  
+}
+button:hover{
+    background-color:#f0f0f5;
+    color: black;
+}
+.link {
+    margin: 0px 101px;
+}
+img{
+    width: 800px;
+    height: 380px;
+    margin: 0px -350px;
+}
+input::placeholder{
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color:black;
+    
+}
+a:hover{
+ text-decoration: underline;
+ color: #B2361B;
+
+}
+.lebel {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+.lebel:before,
+  .lebel:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 36%;
+  }
+  
+  .lebel:before {
+    right: 2.4em;
+    margin-left: -35%;
+  }
+  
+  .lebel:after {
+    left: 2.4em;
+    margin-right: -36%;
+  }
+h2 {
+    font: initial;
+}
+.lastlebel{
+    margin: 0px 5px;
+}
+
